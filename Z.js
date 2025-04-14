@@ -16,7 +16,7 @@ const chatContainer = document.getElementById('chat-container');
         let username = "zayanai_12";
         const vectorShiftApiKey = "sk_iVi2k5KSD8o8gGeJ3acJeYFH9o9AZUNvFMIaUYwfHsAFx01k";
         const secondVectorShiftApiKey = "sk_TfH0501pnMxcOtflFBToXnqifTGfeBxDrUoUajbTWHFAEreI";
-        const thirdVectorShiftApiKey = "sk_cwB6kRrRKW6qIc8P4lEFpJHpT11MQD0K1oUk31uoeMG7cEXy";
+        const thirdVectorShiftApiKey = "sk_eKnwrVblY1FdVVyyqpdJ9JC3p1jPxGnVrFRLu8fydy6Sp6Bn";
         const fourthVectorShiftApiKey = "sk_cwB6kRrRKW6qIc8P4lEFpJHpT11MQD0K1oUk31uoeMG7cEXy";
         const fifthVectorShiftApiKey = "YOUR_5TH_VECTORS_SHIFT_API_KEY";
         const sixthVectorShiftApiKey = "YOUR_6TH_VECTORS_SHIFT_API_KEY";
@@ -445,8 +445,8 @@ const chatContainer = document.getElementById('chat-container');
                 const apiUrl = "https://api.vectorshift.ai/api/chatbots/run";
                 const requestBody = {
                     input: messageToSend,
-                    chatbot_name: "zayandouble",
-                    username: "ari_67ds",
+                    chatbot_name: "Samar AI",
+                    username: "adari_146-7",
                     conversation_id: conversationId
                 };
                 showThinkingIndicator('reasoning');
